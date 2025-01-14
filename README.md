@@ -1,4 +1,4 @@
-# Simple TCP/IP Echo Server and Client. #
+#  TCP/IP Echo Server and Client. #
 
 ## This project demonstrates a basic implementation of the TCP/IP stack in python. ##
 ## It includes a server that listens for incoming connections and echoes any received messages back to the client. A client connects to the server, sends a message, and displays the server's response.##
@@ -22,6 +22,6 @@
 1. This server handles one client at a time in this implementation.
 2. Both server and client run on the same machine. ('127.0.0.1)
 
-## Helpful Youtube videos
+## Resources
 1. https://youtu.be/vKFLgmSC6do?si=4jmCJMxS70hHLp5L
 2. https://youtu.be/sUzM-vIC-s4?si=M5a2dEhK6EKyMlgZ
