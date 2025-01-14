@@ -1,13 +1,9 @@
 #  TCP/IP Echo Server and Client. #
 
-## This project demonstrates a basic implementation of the TCP/IP stack in python. ##
-## It includes a server that listens for incoming connections and echoes any received messages back to the client. A client connects to the server, sends a message, and displays the server's response.##
+## This project demonstrates a basic implementation of the TCP/IP stack in python. 
 
-* Create a TCP/IP connection
-* Create a TCP server in python
-* Create a python socket program
-* Create a python Echo server
-* Create a simple networking project
+The project implements a TCP/IP-based communication system, featuring a server that establishes a socket to listen for incoming client connections on a specified IP address and port. Upon successful connection, the server processes incoming data packets from the client, echoes the received payload back to the sender, and maintains the connection until the client terminates communication. Concurrently, a client module is designed to initiate a TCP handshake with the server, transmit a predefined message in binary format, and receive the server's response, which is then decoded and displayed to the user.
+
 
 ## How to set up a simple server-client communication 
 1. Install Python -- https://www.python.org/downloads/
@@ -25,3 +21,5 @@
 ## Resources
 1. https://youtu.be/vKFLgmSC6do?si=4jmCJMxS70hHLp5L
 2. https://youtu.be/sUzM-vIC-s4?si=M5a2dEhK6EKyMlgZ
+3. https://www.researchgate.net/publication/371036975_Python_TCPIP_libraries_A_Review
+4. https://realpython.com/python-sockets/
