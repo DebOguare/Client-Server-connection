@@ -6,13 +6,12 @@ The project implements a TCP/IP-based communication system, featuring a server t
 
 
 ## How to set up a simple server-client communication 
-1. Install Python -- https://www.python.org/downloads/
-2. Create a directory for your project
-3. Create two python files in the dirctory-- A server (server.py) and client (client.py) file
+1. Install Python 3.9+
+2. Clone Repository on local machine using Git
+3. Create a virtual environment for the project folder
 4. Write the server code then write the client code
 5. Open the terminal and navigate to the project directory
-6. Run the server code then the client code
-7. The client will display an echoed response
+6. Run the server then the client
 
 ## Limitations
 1. This server handles one client at a time in this implementation.
